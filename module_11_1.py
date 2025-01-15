@@ -34,7 +34,6 @@ else:
 
     if roots is None:
         print("Корней нет.")
-        plt.title("График: Нет пересечений с осью X")
     else:
         for root in roots:
             plt.plot(root, 0, 'ro')
